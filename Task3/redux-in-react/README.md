@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Some detail of my project:
 
-Currently, two official plugins are available:
+First I use Vite React App then install Redux & Redux Tool Kit, I decided to use axios for API calls, then manage state by Redux.
+I also add some style by Tailwind!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Use Redux & Redux Toolkit to manage state and API calls: All setup in postSlice.
+2. PostList to display all posts that get from state managed by Redux
+3. PostItem to display each post from data
+4. PostForm to create new post
