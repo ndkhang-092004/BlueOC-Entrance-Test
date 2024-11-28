@@ -1,4 +1,4 @@
-export const StringLengthFrequency = () => {
+const StringLengthFrequency = () => {
   //Mình chưa biết cách tạo unit test cho js, mình sẽ học phần này sau nếu cần ạ!
   const test1 = ["a", "ab", "abc", "cd", "def", "gh"];
   const test2 = ["abc", "def", "ghi"];
